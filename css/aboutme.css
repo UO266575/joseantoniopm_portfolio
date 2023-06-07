@@ -49,6 +49,7 @@ p{
 .contact-form {
     max-width: 60vw;
     width: 24vw;
+    min-width: 550px;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
     padding: 1vh;
@@ -96,10 +97,20 @@ button[type="submit"] {
 
 @media (max-width: 1300px) {
   .volunteering {
+    display: block;
     flex-direction: column;
   }
 
-  .erasmus-container {
-      flex-direction: column-reverse;
+  .volunteering img {
+      width: 100%;
+    }
+
+    .erasmus-container {
+        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .erasmus-container img{
+        width: 100%
     }
 }

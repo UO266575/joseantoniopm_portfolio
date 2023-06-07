@@ -11,12 +11,19 @@
 </head>
 <body>
 <div class="navbar">
-    <ul>
-        <li><a title="Home page" href="index.html">Home</a>
-        <li><a href="#">Projects</a>
-            <ul>
-                <li><a title="MiAppiario page" href="miappiario.html">MiAppiario</a> </li>
-                <li><a title="icekar page" href="icekar.html">Icekar</a> </li>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <ul class="nav-menu">
+        <li><a title="Home page" href="index.html">Home</a></li>
+        <li>
+            <a href="#">Projects</a>
+            <ul class="sub-menu">
+                <li><a title="MiAppiario page" href="miappiario.html">MiAppiario</a></li>
+                <li><a title="icekar page" href="icekar.html">Icekar</a></li>
             </ul>
         </li>
         <li><a title="About me page" href="aboutme.html">About me</a></li>
