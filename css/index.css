@@ -75,3 +75,15 @@
     transform: translateX(0);
   }
 }
+
+@media (max-width: 1300px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-element {
+    flex-basis: 70%;
+    margin-bottom: 2rem;
+  }
+}
