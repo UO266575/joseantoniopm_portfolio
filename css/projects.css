@@ -63,3 +63,9 @@ iframe {
     max-width: 90vw;
   }
 }
+
+@media (max-width: 1000px) {
+  img {
+    max-width: 60vw;
+  }
+}
